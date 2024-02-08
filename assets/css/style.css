@@ -1,0 +1,17 @@
+*{
+    border: 0.5px dashed black;
+}
+
+
+:root{
+    --bootstrap-background-primary: #1bbc9b;
+    --bootstrap-dark: #2d3e50;
+    --bootstrap-darker: #2d3e50;
+    --bootstrap-col-house: #bb4b63;
+    --bootstrap-col-cake: #1fa4b7;
+    --bootstrap-col-circus: black;
+    --bootstrap-col-gamepad: #1b83c0;
+    --bootstrap-col-vault: #0f38b6;
+    --bootstrap-col-submarine: #ccb2a3;
+    --bootstrap-lightest: white;
+}
