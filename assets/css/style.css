@@ -95,6 +95,7 @@
 .contact{
     height: 300px;
     background-color: var(--bootstrap-lightest);
+    justify-content: center;
 }
 
 /* #endregion main */
