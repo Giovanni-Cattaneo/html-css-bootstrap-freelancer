@@ -78,6 +78,8 @@
 /* #region about */
 .about{
     background-color: var(--bootstrap-background-primary);
+    color: var(--bootstrap-lightest);
+    text-align: center;
     div{
         max-width: 80%;
         margin: auto;
@@ -95,7 +97,8 @@
 .contact{
     height: 300px;
     background-color: var(--bootstrap-lightest);
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* #endregion main */
