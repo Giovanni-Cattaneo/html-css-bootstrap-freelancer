@@ -1,7 +1,7 @@
 /* #region common */
 
 *{
-    border: 0.5px dashed black;
+    
 }
 
 
@@ -99,3 +99,14 @@
 
 /* #endregion main */
 
+#site_footer{
+    background-color: var(--bootstrap-dark);
+    color: var(--bootstrap-lightest);
+
+    .copyright{
+        height: 100px;
+        background-color: var(--bootstrap-darker);
+        justify-content: center;
+        align-items: center;
+    }
+}
