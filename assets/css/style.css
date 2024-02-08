@@ -5,7 +5,7 @@
 
 :root{
     --bootstrap-background-primary: #1bbc9b;
-    --bootstrap-dark: #2d3e50;
+    --bootstrap-dark: #3a546d;
     --bootstrap-darker: #2d3e50;
     --bootstrap-col-house: #bb4b63;
     --bootstrap-col-cake: #1fa4b7;
@@ -15,3 +15,49 @@
     --bootstrap-col-submarine: #ccb2a3;
     --bootstrap-lightest: white;
 }
+
+
+#site_header{
+    background-color: var(--bootstrap-darker);
+
+    .container{
+        justify-content: space-between;
+        color: var(--bootstrap-lightest);
+    }
+}
+
+.jumbotron{
+    background-color: var(--bootstrap-background-primary);
+    color: var(--bootstrap-lightest);
+    height: 300px;
+}
+
+#portofolio {
+    background-color: var(--bootstrap-lightest);
+}
+
+#portfolio .row{
+
+    div{
+        height: 200px;
+    }
+
+    div:nth-child(1){
+        background-color: var(--bootstrap-col-house);
+    }
+    div:nth-child(2){
+        background-color: var(--bootstrap-col-cake);
+    }
+    div:nth-child(3){
+        background-color: var(--bootstrap-col-circus);
+    }
+    div:nth-child(4){
+        background-color: var(--bootstrap-col-gamepad);
+    }
+    div:nth-child(5){
+        background-color: var(--bootstrap-col-vault);
+    }
+    div:nth-child(6){
+        background-color: var(--bootstrap-col-submarine);
+    }
+} 
