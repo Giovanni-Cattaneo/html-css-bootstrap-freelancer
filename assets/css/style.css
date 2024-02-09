@@ -55,6 +55,13 @@
     align-items: center;
     row-gap: 1rem;
 
+    .d-flex{
+        align-items: center;
+        max-height: 1rem;
+        column-gap: 2rem;
+    }
+
+
     & span, .fa-star{
         font-size: 1.8rem;
     }
@@ -121,6 +128,10 @@
 
     .d-flex{
         justify-content: center;
+    }
+
+    > div:last-child{
+        flex-direction: row;
     }
 }
 
