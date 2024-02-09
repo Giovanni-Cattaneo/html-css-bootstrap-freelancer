@@ -153,14 +153,26 @@
     .col-12 > .d-flex{
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .fa-brands{
-        font-size: 1.8rem;
+        border: 0.5px solid white;
+        border-radius: 50%;
+        padding: 0.5rem;
     }
 
     .icon{
         column-gap: 0.5rem;
+
+        .fa-facebook-f, .fa-linkedin{
+            padding: 0.5rem 0.7rem;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--bootstrap-background-primary);
     }
 
     .copyright{
