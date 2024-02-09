@@ -101,10 +101,22 @@
 .about{
     background-color: var(--bootstrap-background-primary);
     color: var(--bootstrap-lightest);
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    
+    *{
+        width: 50%;
+        margin: auto;
+    }
+
     div{
         max-width: 80%;
         margin: auto;
+    }
+
+    h2, .fa-star{
+        text-align: center;
     }
 }
 
