@@ -17,6 +17,10 @@
     --bootstrap-col-submarine: #ccb2a3;
     --bootstrap-lightest: white;
 }
+
+.fa-star{
+    font-size: 1.8rem;
+}
 /* #endregion common */
 
 /* #region header */
@@ -62,28 +66,31 @@
 #portfolio {
     background-color: var(--bootstrap-lightest);
     padding: 1rem 0;
+    text-align: center;
+
+    h2{
+        font-size: 2.5rem;
+    }
 }
 
 #portfolio .row{
-    div{
-        height: 250px;
-    }
-    div:nth-child(1){
+
+    .card:nth-child(1){
         background-color: var(--bootstrap-col-house);
     }
-    div:nth-child(2){
+    .card:nth-child(2){
         background-color: var(--bootstrap-col-cake);
     }
-    div:nth-child(3){
+    .card:nth-child(3){
         background-color: var(--bootstrap-col-circus);
     }
-    div:nth-child(4){
+    .card:nth-child(4){
         background-color: var(--bootstrap-col-gamepad);
     }
-    div:nth-child(5){
+    .card:nth-child(5){
         background-color: var(--bootstrap-col-vault);
     }
-    div:nth-child(6){
+    .card:nth-child(6){
         background-color: var(--bootstrap-col-submarine);
     }
 } 
