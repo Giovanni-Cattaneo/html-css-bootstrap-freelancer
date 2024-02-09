@@ -150,10 +150,24 @@
     background-color: var(--bootstrap-dark);
     color: var(--bootstrap-lightest);
 
+    .col-12 > .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fa-brands{
+        font-size: 1.8rem;
+    }
+
+    .icon{
+        column-gap: 0.5rem;
+    }
+
     .copyright{
         height: 100px;
         background-color: var(--bootstrap-darker);
         justify-content: center;
         align-items: center;
     }
+
 }
