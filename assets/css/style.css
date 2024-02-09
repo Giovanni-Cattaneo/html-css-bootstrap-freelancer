@@ -28,6 +28,14 @@
         justify-content: space-between;
         color: var(--bootstrap-lightest);
     }
+
+    .navbar{
+        background-color: transparent;
+    }
+
+    .navbar-brand, .nav-link{
+        color: var(--bootstrap-lightest);
+    }
 }
 /* #endregion header */
 
@@ -46,6 +54,7 @@
 /* #region portfolio */
 #portfolio {
     background-color: var(--bootstrap-lightest);
+    padding: 1rem 0;
 }
 
 #portfolio .row{

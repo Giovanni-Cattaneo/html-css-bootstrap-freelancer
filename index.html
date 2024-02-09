@@ -11,30 +11,47 @@
 
     <style>
         :root {
-                --bootstrap-background-primary: #1bbc9b;
-                --bootstrap-dark: #3a546d;
-                --bootstrap-darker: #2d3e50;
-                --bootstrap-col-house: #bb4b63;
-                --bootstrap-col-cake: #1fa4b7;
-                --bootstrap-col-circus: black;
-                --bootstrap-col-gamepad: #1b83c0;
-                --bootstrap-col-vault: #0f38b6;
-                --bootstrap-col-submarine: #ccb2a3;
-                --bootstrap-lightest: white;
-            }
+            --bootstrap-background-primary: #1bbc9b;
+            --bootstrap-dark: #3a546d;
+            --bootstrap-darker: #2d3e50;
+            --bootstrap-col-house: #bb4b63;
+            --bootstrap-col-cake: #1fa4b7;
+            --bootstrap-col-circus: black;
+            --bootstrap-col-gamepad: #1b83c0;
+            --bootstrap-col-vault: #0f38b6;
+            --bootstrap-col-submarine: #ccb2a3;
+            --bootstrap-lightest: white;
+        }
     </style>
 </head>
 
 <body>
     <header id="site_header">
-        <div class="container d-flex ">
-            <h5>Start bootstrap</h5>
-            <div class="links">
-                <span>Portofolio</span>
-                <span>About</span>
-                <span>Contact</span>
+        <nav class="navbar navbar-expand-md">
+            <div class="container ">
+                <a class="navbar-brand" href="#">BOOTSTRAP START</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown"> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- /#site_header -->
 
@@ -44,7 +61,7 @@
             <h1>Start bootstrap</h1>
         </div>
 
-        <div id="portfolio py-5">
+        <div id="portfolio">
             <div class="container">
                 <div class="row g-2">
                     <div class="col-12 col-md-6 col-lg-4 ">
