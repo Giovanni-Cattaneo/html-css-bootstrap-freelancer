@@ -59,6 +59,13 @@
         align-items: center;
         max-height: 1rem;
         column-gap: 2rem;
+
+        span{
+            background-color: var(--bootstrap-lightest);
+            width: 150px;
+            height: 4px;
+            border-radius: 0.2rem;
+        }
     }
 
 
@@ -77,6 +84,18 @@
 
     h2{
         font-size: 2.5rem;
+    }
+
+    .d-flex{
+        justify-content: center;
+        align-items: center;
+
+        span{
+            background-color: var(--bootstrap-darker);
+            width: 150px;
+            height: 4px;
+            border-radius: 0.2rem;
+        }
     }
 }
 
@@ -128,6 +147,13 @@
 
     .d-flex{
         justify-content: center;
+
+        span{
+            background-color: var(--bootstrap-lightest);
+            width: 150px;
+            height: 4px;
+            border-radius: 0.2rem;
+        }
     }
 
     > div:last-child{
