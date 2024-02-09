@@ -46,7 +46,6 @@
 /* #region portfolio */
 #portfolio {
     background-color: var(--bootstrap-lightest);
-    padding: 1rem 0;
 }
 
 #portfolio .row{
