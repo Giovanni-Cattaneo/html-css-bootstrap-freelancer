@@ -6,16 +6,16 @@
 
 
 :root{
-    --bootstrap-background-primary: #1bbc9b;
-    --bootstrap-dark: #3a546d;
-    --bootstrap-darker: #2d3e50;
-    --bootstrap-col-house: #bb4b63;
-    --bootstrap-col-cake: #1fa4b7;
-    --bootstrap-col-circus: black;
-    --bootstrap-col-gamepad: #1b83c0;
-    --bootstrap-col-vault: #0f38b6;
-    --bootstrap-col-submarine: #ccb2a3;
-    --bootstrap-lightest: white;
+    --bs-background-primary: #1bbc9b;
+    --bs-dark: #3a546d;
+    --bs-darker: #2d3e50;
+    --bs-col-house: #bb4b63;
+    --bs-col-cake: #1fa4b7;
+    --bs-col-circus: black;
+    --bs-col-gamepad: #1b83c0;
+    --bs-col-vault: #0f38b6;
+    --bs-col-submarine: #ccb2a3;
+    --bs-lightest: white;
 }
 
 .fa-star{
@@ -26,11 +26,11 @@
 /* #region header */
 
 #site_header{
-    background-color: var(--bootstrap-darker);
+    background-color: var(--bs-darker);
 
     .container{
         justify-content: space-between;
-        color: var(--bootstrap-lightest);
+        color: var(--bs-lightest);
     }
 
     .navbar{
@@ -38,7 +38,7 @@
     }
 
     .navbar-brand, .nav-link{
-        color: var(--bootstrap-lightest);
+        color: var(--bs-lightest);
     }
 }
 /* #endregion header */
@@ -48,8 +48,8 @@
 /* #region jumbotron */
 
 .jumbotron{
-    background-color: var(--bootstrap-background-primary);
-    color: var(--bootstrap-lightest);
+    background-color: var(--bs-background-primary);
+    color: var(--bs-lightest);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -61,7 +61,7 @@
         column-gap: 2rem;
 
         span{
-            background-color: var(--bootstrap-lightest);
+            background-color: var(--bs-lightest);
             width: 150px;
             height: 4px;
             border-radius: 0.2rem;
@@ -78,7 +78,7 @@
 
 /* #region portfolio */
 #portfolio {
-    background-color: var(--bootstrap-lightest);
+    background-color: var(--bs-lightest);
     padding: 1rem 0;
     text-align: center;
 
@@ -91,7 +91,7 @@
         align-items: center;
 
         span{
-            background-color: var(--bootstrap-darker);
+            background-color: var(--bs-darker);
             width: 150px;
             height: 4px;
             border-radius: 0.2rem;
@@ -102,22 +102,22 @@
 #portfolio .row{
 
     .card:nth-child(1){
-        background-color: var(--bootstrap-col-house);
+        background-color: var(--bs-col-house);
     }
     .card:nth-child(2){
-        background-color: var(--bootstrap-col-cake);
+        background-color: var(--bs-col-cake);
     }
     .card:nth-child(3){
-        background-color: var(--bootstrap-col-circus);
+        background-color: var(--bs-col-circus);
     }
     .card:nth-child(4){
-        background-color: var(--bootstrap-col-gamepad);
+        background-color: var(--bs-col-gamepad);
     }
     .card:nth-child(5){
-        background-color: var(--bootstrap-col-vault);
+        background-color: var(--bs-col-vault);
     }
     .card:nth-child(6){
-        background-color: var(--bootstrap-col-submarine);
+        background-color: var(--bs-col-submarine);
     }
 } 
 /* #endregion portfolio */
@@ -125,8 +125,8 @@
 
 /* #region about */
 .about{
-    background-color: var(--bootstrap-background-primary);
-    color: var(--bootstrap-lightest);
+    background-color: var(--bs-background-primary);
+    color: var(--bs-lightest);
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
@@ -149,7 +149,7 @@
         justify-content: center;
 
         span{
-            background-color: var(--bootstrap-lightest);
+            background-color: var(--bs-lightest);
             width: 150px;
             height: 4px;
             border-radius: 0.2rem;
@@ -165,7 +165,7 @@
 /* #endregion about */
 
 .contact{
-    background-color: var(--bootstrap-lightest);
+    background-color: var(--bs-lightest);
     flex-direction: column;
     margin: auto;
 
@@ -186,7 +186,7 @@
     }
 
     span{
-        background-color: var(--bootstrap-darker);
+        background-color: var(--bs-darker);
         width: 150px;
         height: 4px;
         border-radius: 0.2rem;
@@ -197,8 +197,8 @@
 /* #endregion main */
 
 #site_footer{
-    background-color: var(--bootstrap-dark);
-    color: var(--bootstrap-lightest);
+    background-color: var(--bs-dark);
+    color: var(--bs-lightest);
 
     .col-12 > .d-flex{
         flex-direction: column;
@@ -222,12 +222,12 @@
 
     a{
         text-decoration: none;
-        color: var(--bootstrap-background-primary);
+        color: var(--bs-background-primary);
     }
 
     .copyright{
         height: 100px;
-        background-color: var(--bootstrap-darker);
+        background-color: var(--bs-darker);
         justify-content: center;
         align-items: center;
     }
