@@ -179,6 +179,19 @@
         border-bottom: 0.1px solid;
         border-radius: 0;
     }
+
+    h2 + .d-flex{
+        align-items: center;
+        justify-content: center;
+    }
+
+    span{
+        background-color: var(--bootstrap-darker);
+        width: 150px;
+        height: 4px;
+        border-radius: 0.2rem;
+        align-self: center;
+    }
 }
 
 /* #endregion main */
